@@ -6,6 +6,7 @@ use App\Interfaces\HolidayInterface;
 
 class HolidaysArray implements HolidayInterface
 {
+    // here other dev can add holidays(riigipühad)
     private array $holidaysArray = ['01-10'];
     /**
      * Add specific days of the month to consider them as holidays if needed
